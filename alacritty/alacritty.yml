@@ -1,0 +1,35 @@
+window:
+  dimensions:
+    columns: 140
+    lines: 40
+
+  padding:
+    x: 0
+    y: 6
+
+  title: Alacritty
+
+  class:
+    instance: Alacritty
+    general: Alacritty
+
+  opacity: 0.8
+
+font:
+  normal:
+    family: Agave Nerd Font
+    style: Medium
+  size: 12
+
+# Dracula Theme
+import:
+  - /home/rafael/.config/alacritty/dracula.yml
+
+cursor:
+  style:
+    shape: Beam
+    blinking: Always
+    blink-interval: 750
+
+key_bindings:
+  - { key: Return, mods: Control|Shift, action: SpawnNewInstance }
